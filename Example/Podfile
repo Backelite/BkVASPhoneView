@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BkVASPhoneView_Example', :exclusive => true do
+  pod 'BkVASPhoneView', :path => '../'
+end
+
+target 'BkVASPhoneView_Tests', :exclusive => true do
+  pod 'BkVASPhoneView', :path => '../'
+
+  pod 'Kiwi'
+end

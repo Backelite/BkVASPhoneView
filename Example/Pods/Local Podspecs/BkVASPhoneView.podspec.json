@@ -1,0 +1,26 @@
+{
+  "name": "BkVASPhoneView",
+  "version": "0.1.0",
+  "summary": "A short description of BkVASPhoneView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BkVASPhoneView",
+  "license": "MIT",
+  "authors": {
+    "David Yang": "david.yang@backelite.com"
+  },
+  "source": {
+    "git": "https://github.com/Backelite/BkVASPhoneView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "BkVASPhoneView": [
+      "Pod/Assets/*.png",
+      "Pod/Classes/*.otf"
+    ]
+  }
+}

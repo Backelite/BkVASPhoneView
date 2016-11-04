@@ -1,0 +1,17 @@
+PODS:
+  - BkVASPhoneView (0.1.0)
+  - Kiwi (2.4.0)
+
+DEPENDENCIES:
+  - BkVASPhoneView (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  BkVASPhoneView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BkVASPhoneView: e6d9bee167ada03845b13fa0b7c16a26d33905e9
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+
+COCOAPODS: 0.39.0

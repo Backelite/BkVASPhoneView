@@ -1,0 +1,6 @@
+framework module BkVASPhoneView {
+  umbrella header "BkVASPhoneView-umbrella.h"
+
+  export *
+  module * { export * }
+}
