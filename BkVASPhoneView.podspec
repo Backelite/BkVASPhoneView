@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "BkVASPhoneView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BkVASPhoneView."
+  s.summary          = "Custom view for phone number display, following the SVA+ requirements. Written in Objective-C."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,11 +19,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BkVASPhoneView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/Backelite/BkVASPhoneView"
   s.license          = 'MIT'
   s.author           = { "David Yang" => "david.yang@backelite.com" }
-  s.source           = { :git => "https://github.com/Backelite/BkVASPhoneView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Backelite/BkVASPhoneView.git", :tag => 1.0 }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
