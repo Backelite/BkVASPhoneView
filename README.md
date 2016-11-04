@@ -1,6 +1,7 @@
 # BkVASPhoneView
 =========
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Backelite/MaryPopin/blob/master/LICENSE)
+[![Release](http://img.shields.io/github/release/Backelite/BkVASPhoneView.svg)](https://github.com/Backelite/BkVASPhoneView)
 
 Custom view for phone number display, following the SVA+ requirements. Written in Objective-C.
 
