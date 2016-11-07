@@ -116,7 +116,7 @@
     }
 
     case 1: {
-        [cell.phoneView configureWithPhoneNumber:@"0 825 123 456" feeType:BkVASFeeTypeFree fee:nil size:BkVASPhoneSizeSmall];
+        [cell.phoneView configureWithPhoneNumber:@"0 825 123 456" feeType:BkVASFeeTypeFree fee:@"" size:BkVASPhoneSizeSmall];
 
         cell.phoneView.alignment = [self.alignements[indexPath.row] integerValue];
         break;

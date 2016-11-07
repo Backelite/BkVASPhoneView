@@ -214,9 +214,7 @@ const CGFloat BkVASDefaultMultipleLineFeeLabelFontSize = 10.0f;
 }
 
 - (CGFloat)feeLabelWdith {
-    CGFloat fontSize = [self useBigSize] ? BkVASDefaultMultipleLineFeeLabelFontSizeBig : BkVASDefaultMultipleLineFeeLabelFontSize;
-    CGSize size = [[self feeAttributedString] size];
-    return size.width;
+    return [self feeAttributedString].size.width;
 }
 
 - (CGRect)mainFrameRect {
@@ -301,9 +299,7 @@ const CGFloat BkVASDefaultMultipleLineFeeLabelFontSize = 10.0f;
 
 - (NSAttributedString *)attributedCostText {
     NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithAttributedString:[self feeAttributedString]];
-    
-    CGFloat fontSize = [self useBigSize] ? BkVASDefaultMultipleLineFeeLabelFontSizeBig : BkVASDefaultMultipleLineFeeLabelFontSize;
-    
+        
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
     paragraphStyle.lineSpacing = 0;
     CGFloat lineHeightGap = [self useBigSize] ? -2 : -1;
