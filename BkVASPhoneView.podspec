@@ -8,27 +8,28 @@
 
 Pod::Spec.new do |s|
   s.name             = "BkVASPhoneView"
-  s.version          = "0.1.0"
+  s.version          = "1.0"
   s.summary          = "Custom view for phone number display, following the SVA+ requirements. Written in Objective-C."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+This is a custom view for phone number display, following the SVA+ requirements.
+http://www.svaplus.fr/actualites-et-travaux/la-charte-signaletique-des-numeros-sva-8493689-1049.html
                        DESC
 
   s.homepage         = "https://github.com/Backelite/BkVASPhoneView"
   s.license          = 'MIT'
   s.author           = { "David Yang" => "david.yang@backelite.com" }
-  s.source           = { :git => "https://github.com/Backelite/BkVASPhoneView.git", :tag => 1.0 }
+  s.source           = { :git => "https://github.com/Backelite/BkVASPhoneView.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = ['Pod/Classes/**/*.h', 'Pod/Classes/**/*.m']
   s.resource_bundles = {
-    'BkVASPhoneView' => ['Pod/Assets/*.png', 'Pod/Classes/*.otf']
+    'BkVASPhoneView' => ['Pod/Assets/*.png', 'Pod/Assets/*.otf']
   }
+  
+  s.subspec 'Swift' do |sp|
+    s.ios.deployment_target = '8.0'
+    sp.source_files = 'Pod/Classes/**/*'
+  end
 end
