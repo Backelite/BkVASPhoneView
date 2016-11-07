@@ -23,13 +23,20 @@ http://www.svaplus.fr/actualites-et-travaux/la-charte-signaletique-des-numeros-s
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
-  s.source_files = ['Pod/Classes/**/*.h', 'Pod/Classes/**/*.m']
   s.resource_bundles = {
     'BkVASPhoneView' => ['Pod/Assets/*.png', 'Pod/Assets/*.otf']
   }
   
+  s.default_subspec = 'ObjectiveC'
+  
+  s.subspec 'ObjectiveC' do |sp|
+    # subspecs for users who don't want the Swift implementation
+    sp.ios.deployment_target = '7.0'
+    sp.source_files = 'Pod/Classes/**/*.{h,m}'
+  end
+  
   s.subspec 'Swift' do |sp|
-    s.ios.deployment_target = '8.0'
-    sp.source_files = 'Pod/Classes/**/*'
+    sp.ios.deployment_target = '8.0'
+    sp.source_files = 'Pod/Classes/**/*{h,m,swift}'
   end
 end

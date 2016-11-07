@@ -1,5 +1,7 @@
 PODS:
-  - BkVASPhoneView (0.1.0)
+  - BkVASPhoneView (1.0):
+    - BkVASPhoneView/ObjectiveC (= 1.0)
+  - BkVASPhoneView/ObjectiveC (1.0)
   - Kiwi (2.4.0)
 
 DEPENDENCIES:
@@ -11,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BkVASPhoneView: e6d9bee167ada03845b13fa0b7c16a26d33905e9
+  BkVASPhoneView: 26bc2f301a9bffcf4d7cca3a9bc87c8b2fc03c46
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
 
 COCOAPODS: 0.39.0

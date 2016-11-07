@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2AC667D33AFBDF37BBBB081B'
+               BlueprintIdentifier = 'DEA6B1F4F415AFA3CDA635C9'
                BlueprintName = 'BkVASPhoneView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'BkVASPhoneView.framework'>
