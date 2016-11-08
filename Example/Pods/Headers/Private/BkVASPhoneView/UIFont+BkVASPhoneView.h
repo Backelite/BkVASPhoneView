@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/UIFont+BkVASPhoneView.h
+../../../../../BkVASPhoneView/UIFont+BkVASPhoneView.h

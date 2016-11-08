@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/UIColor+BkVASPhoneView.h
+../../../../../BkVASPhoneView/UIColor+BkVASPhoneView.h

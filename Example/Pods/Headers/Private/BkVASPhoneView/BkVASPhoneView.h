@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/BkVASPhoneView.h
+../../../../../BkVASPhoneView/BkVASPhoneView.h

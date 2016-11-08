@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BkVASPhoneView: 26bc2f301a9bffcf4d7cca3a9bc87c8b2fc03c46
+  BkVASPhoneView: aa1c00445d883dc3d75f8b7d9300f35b4b202aa9
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
 
 COCOAPODS: 0.39.0

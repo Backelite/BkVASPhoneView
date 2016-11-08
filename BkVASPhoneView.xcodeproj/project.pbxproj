@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DFD0E511DD21DB000D6990F /* BkVASPhoneViewSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD0E4F1DD21DB000D6990F /* BkVASPhoneViewSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFD0E551DD21E0900D6990F /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBADA971DD215E400C5AD7A /* Aliases.swift */; };
+		3DFD0E571DD21E1A00D6990F /* BkVASPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD70381DD20DCE0077FEB9 /* BkVASPhoneView.m */; };
+		3DFD0E581DD21E1A00D6990F /* UIColor+BkVASPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD70391DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.h */; };
+		3DFD0E591DD21E1A00D6990F /* UIColor+BkVASPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD703A1DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.m */; };
+		3DFD0E5A1DD21E1A00D6990F /* UIFont+BkVASPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD703B1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.h */; };
+		3DFD0E5B1DD21E1A00D6990F /* UIFont+BkVASPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD703C1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.m */; };
+		3DFD0E5C1DD21E9C00D6990F /* BkVASPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD70371DD20DCE0077FEB9 /* BkVASPhoneView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFD0E691DD221C100D6990F /* BkVASPhoneView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFD70291DD20D5B0077FEB9 /* BkVASPhoneView.framework */; };
+		3DFD0E761DD2285800D6990F /* Exo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD0E751DD2285800D6990F /* Exo-Bold.otf */; };
+		3DFD0E771DD2285800D6990F /* Exo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD0E751DD2285800D6990F /* Exo-Bold.otf */; };
+		3DFD703E1DD20DCE0077FEB9 /* BkVASPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD70371DD20DCE0077FEB9 /* BkVASPhoneView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFD703F1DD20DCE0077FEB9 /* BkVASPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD70381DD20DCE0077FEB9 /* BkVASPhoneView.m */; };
+		3DFD70401DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD70391DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.h */; };
+		3DFD70411DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD703A1DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.m */; };
+		3DFD70421DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD703B1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.h */; };
+		3DFD70431DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD703C1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DBADA971DD215E400C5AD7A /* Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		3DFD0E4D1DD21DB000D6990F /* BkVASPhoneViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BkVASPhoneViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFD0E4F1DD21DB000D6990F /* BkVASPhoneViewSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BkVASPhoneViewSwift.h; sourceTree = "<group>"; };
+		3DFD0E501DD21DB000D6990F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFD0E751DD2285800D6990F /* Exo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Exo-Bold.otf"; path = "assets/Exo-Bold.otf"; sourceTree = "<group>"; };
+		3DFD70291DD20D5B0077FEB9 /* BkVASPhoneView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BkVASPhoneView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFD702D1DD20D5B0077FEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BkVASPhoneView/Info.plist; sourceTree = "<group>"; };
+		3DFD70371DD20DCE0077FEB9 /* BkVASPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BkVASPhoneView.h; path = BkVASPhoneView/BkVASPhoneView.h; sourceTree = "<group>"; };
+		3DFD70381DD20DCE0077FEB9 /* BkVASPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BkVASPhoneView.m; path = BkVASPhoneView/BkVASPhoneView.m; sourceTree = "<group>"; };
+		3DFD70391DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+BkVASPhoneView.h"; path = "BkVASPhoneView/UIColor+BkVASPhoneView.h"; sourceTree = "<group>"; };
+		3DFD703A1DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BkVASPhoneView.m"; path = "BkVASPhoneView/UIColor+BkVASPhoneView.m"; sourceTree = "<group>"; };
+		3DFD703B1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+BkVASPhoneView.h"; path = "BkVASPhoneView/UIFont+BkVASPhoneView.h"; sourceTree = "<group>"; };
+		3DFD703C1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+BkVASPhoneView.m"; path = "BkVASPhoneView/UIFont+BkVASPhoneView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DFD0E491DD21DB000D6990F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD0E691DD221C100D6990F /* BkVASPhoneView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFD70251DD20D5B0077FEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DFD0E4E1DD21DB000D6990F /* BkVASPhoneViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD0E4F1DD21DB000D6990F /* BkVASPhoneViewSwift.h */,
+				3DBADA971DD215E400C5AD7A /* Aliases.swift */,
+				3DFD0E501DD21DB000D6990F /* Info.plist */,
+			);
+			path = BkVASPhoneViewSwift;
+			sourceTree = "<group>";
+		};
+		3DFD701F1DD20D5B0077FEB9 = {
+			isa = PBXGroup;
+			children = (
+				3DFD70341DD20DB80077FEB9 /* BkVASPhoneView */,
+				3DFD0E4E1DD21DB000D6990F /* BkVASPhoneViewSwift */,
+				3DFD70351DD20DBE0077FEB9 /* Assets */,
+				3DFD702A1DD20D5B0077FEB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DFD702A1DD20D5B0077FEB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD70291DD20D5B0077FEB9 /* BkVASPhoneView.framework */,
+				3DFD0E4D1DD21DB000D6990F /* BkVASPhoneViewSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DFD70341DD20DB80077FEB9 /* BkVASPhoneView */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD70371DD20DCE0077FEB9 /* BkVASPhoneView.h */,
+				3DFD70381DD20DCE0077FEB9 /* BkVASPhoneView.m */,
+				3DFD70391DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.h */,
+				3DFD703A1DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.m */,
+				3DFD703B1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.h */,
+				3DFD703C1DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.m */,
+				3DFD702D1DD20D5B0077FEB9 /* Info.plist */,
+			);
+			name = BkVASPhoneView;
+			sourceTree = "<group>";
+		};
+		3DFD70351DD20DBE0077FEB9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD0E751DD2285800D6990F /* Exo-Bold.otf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DFD0E4A1DD21DB000D6990F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD0E5A1DD21E1A00D6990F /* UIFont+BkVASPhoneView.h in Headers */,
+				3DFD0E581DD21E1A00D6990F /* UIColor+BkVASPhoneView.h in Headers */,
+				3DFD0E5C1DD21E9C00D6990F /* BkVASPhoneView.h in Headers */,
+				3DFD0E511DD21DB000D6990F /* BkVASPhoneViewSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFD70261DD20D5B0077FEB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD70421DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.h in Headers */,
+				3DFD70401DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.h in Headers */,
+				3DFD703E1DD20DCE0077FEB9 /* BkVASPhoneView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DFD0E4C1DD21DB000D6990F /* BkVASPhoneViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFD0E521DD21DB000D6990F /* Build configuration list for PBXNativeTarget "BkVASPhoneViewSwift" */;
+			buildPhases = (
+				3DFD0E481DD21DB000D6990F /* Sources */,
+				3DFD0E491DD21DB000D6990F /* Frameworks */,
+				3DFD0E4A1DD21DB000D6990F /* Headers */,
+				3DFD0E4B1DD21DB000D6990F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BkVASPhoneViewSwift;
+			productName = BkVASPhoneViewSwift;
+			productReference = 3DFD0E4D1DD21DB000D6990F /* BkVASPhoneViewSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DFD70281DD20D5B0077FEB9 /* BkVASPhoneView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFD70311DD20D5B0077FEB9 /* Build configuration list for PBXNativeTarget "BkVASPhoneView" */;
+			buildPhases = (
+				3DFD70241DD20D5B0077FEB9 /* Sources */,
+				3DFD70251DD20D5B0077FEB9 /* Frameworks */,
+				3DFD70261DD20D5B0077FEB9 /* Headers */,
+				3DFD70271DD20D5B0077FEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BkVASPhoneView;
+			productName = BkVASPhoneView;
+			productReference = 3DFD70291DD20D5B0077FEB9 /* BkVASPhoneView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DFD70201DD20D5B0077FEB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Backelite;
+				TargetAttributes = {
+					3DFD0E4C1DD21DB000D6990F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3DFD70281DD20D5B0077FEB9 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3DFD70231DD20D5B0077FEB9 /* Build configuration list for PBXProject "BkVASPhoneView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DFD701F1DD20D5B0077FEB9;
+			productRefGroup = 3DFD702A1DD20D5B0077FEB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DFD70281DD20D5B0077FEB9 /* BkVASPhoneView */,
+				3DFD0E4C1DD21DB000D6990F /* BkVASPhoneViewSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFD0E4B1DD21DB000D6990F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD0E771DD2285800D6990F /* Exo-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFD70271DD20D5B0077FEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD0E761DD2285800D6990F /* Exo-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DFD0E481DD21DB000D6990F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD0E551DD21E0900D6990F /* Aliases.swift in Sources */,
+				3DFD0E571DD21E1A00D6990F /* BkVASPhoneView.m in Sources */,
+				3DFD0E5B1DD21E1A00D6990F /* UIFont+BkVASPhoneView.m in Sources */,
+				3DFD0E591DD21E1A00D6990F /* UIColor+BkVASPhoneView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFD70241DD20D5B0077FEB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD703F1DD20DCE0077FEB9 /* BkVASPhoneView.m in Sources */,
+				3DFD70431DD20DCE0077FEB9 /* UIFont+BkVASPhoneView.m in Sources */,
+				3DFD70411DD20DCE0077FEB9 /* UIColor+BkVASPhoneView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DFD0E531DD21DB000D6990F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BkVASPhoneViewSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backelite.BkVASPhoneViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DFD0E541DD21DB000D6990F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BkVASPhoneViewSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backelite.BkVASPhoneViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DFD702F1DD20D5B0077FEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DFD70301DD20D5B0077FEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DFD70321DD20D5B0077FEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/BkVASPhoneView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backelite.BkVASPhoneView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DFD70331DD20D5B0077FEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/BkVASPhoneView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backelite.BkVASPhoneView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DFD0E521DD21DB000D6990F /* Build configuration list for PBXNativeTarget "BkVASPhoneViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFD0E531DD21DB000D6990F /* Debug */,
+				3DFD0E541DD21DB000D6990F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DFD70231DD20D5B0077FEB9 /* Build configuration list for PBXProject "BkVASPhoneView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFD702F1DD20D5B0077FEB9 /* Debug */,
+				3DFD70301DD20D5B0077FEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFD70311DD20D5B0077FEB9 /* Build configuration list for PBXNativeTarget "BkVASPhoneView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFD70321DD20D5B0077FEB9 /* Debug */,
+				3DFD70331DD20D5B0077FEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DFD70201DD20D5B0077FEB9 /* Project object */;
+}

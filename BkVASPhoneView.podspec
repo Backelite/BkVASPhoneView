@@ -24,7 +24,7 @@ http://www.svaplus.fr/actualites-et-travaux/la-charte-signaletique-des-numeros-s
   s.requires_arc = true
 
   s.resource_bundles = {
-    'BkVASPhoneView' => ['Pod/Assets/*.png', 'Pod/Assets/*.otf']
+    'BkVASPhoneView' => ['assets/Exo-Bold.otf']
   }
   
   s.default_subspec = 'ObjectiveC'
@@ -32,11 +32,11 @@ http://www.svaplus.fr/actualites-et-travaux/la-charte-signaletique-des-numeros-s
   s.subspec 'ObjectiveC' do |sp|
     # subspecs for users who don't want the Swift implementation
     sp.ios.deployment_target = '7.0'
-    sp.source_files = 'Pod/Classes/**/*.{h,m}'
+    sp.source_files = 'BkVASPhoneView/**/*.{h,m}'
   end
   
   s.subspec 'Swift' do |sp|
     sp.ios.deployment_target = '8.0'
-    sp.source_files = 'Pod/Classes/**/*{h,m,swift}'
+    sp.source_files = 'BkVASPhoneViewSwift/**/*.swift'
   end
 end

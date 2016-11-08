@@ -93,6 +93,6 @@ IB_DESIGNABLE
  * @param feeType The fee type
  * @param fee The fee to display. Can be nil and will only be displayed for a BkVASFeeTypePremium.
  */
-- (void)configureWithPhoneNumber:(nonnull NSString *)phoneNumber feeType:(BkVASFeeType)feeType fee:(nonnull NSString *)fee size:(BkVASPhoneSize)size;
+- (void)configureWithPhoneNumber:(nonnull NSString *)phoneNumber feeType:(BkVASFeeType)feeType fee:(nonnull NSString *)fee size:(BkVASPhoneSize)size NS_SWIFT_NAME(configure(phoneNumber:feeType:fee:size:));
 
 @end

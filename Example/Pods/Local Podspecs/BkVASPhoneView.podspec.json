@@ -18,8 +18,7 @@
   "requires_arc": true,
   "resource_bundles": {
     "BkVASPhoneView": [
-      "Pod/Assets/*.png",
-      "Pod/Assets/*.otf"
+      "assets/Exo-Bold.otf"
     ]
   },
   "default_subspecs": "ObjectiveC",
@@ -29,14 +28,14 @@
       "platforms": {
         "ios": "7.0"
       },
-      "source_files": "Pod/Classes/**/*.{h,m}"
+      "source_files": "BkVASPhoneView/**/*.{h,m}"
     },
     {
       "name": "Swift",
       "platforms": {
         "ios": "8.0"
       },
-      "source_files": "Pod/Classes/**/*{h,m,swift}"
+      "source_files": "BkVASPhoneViewSwift/**/*.swift"
     }
   ]
 }
