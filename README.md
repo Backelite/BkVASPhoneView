@@ -14,7 +14,9 @@ BkVASPhoneView is IBDesignable/IBInspectable compliant. Simply drag and drop a U
 
 ![IB-Usage](assets/ib-usage.gif)
 
-BkVASPhoneView works with Auto-Layout : juste like a regular UILabel, by not setting a specific width and height, its size will not exceed the size it requires.
+BkVASPhoneView works great with Auto-Layout : juste like a regular UILabel, by not setting a specific width and height, its size will not exceed the size it requires.
+
+Please note that **IBDesignable feature is not available through a Carthage installation**. Please see [#335](https://github.com/Carthage/Carthage/issues/335) for more information.
 
 ## Programmatically
 
@@ -41,7 +43,7 @@ Objective-C :
 
 Swift :
 ```Swift
-phoneView.configure(withPhoneNumber: "0 802 12 12", feeType: .premium, fee: "0,34€/min", size: .small)
+phoneView.configure(phoneNumber: "0 802 12 12", feeType: .premium, fee: "0,34€/min", size: .small)
 ```
 
 ## Usage
@@ -54,8 +56,9 @@ iOS 7
 
 ## Installation
 
-BkVASPhoneView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### From CocoaPods
+
+BkVASPhoneView is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "BkVASPhoneView"
@@ -66,6 +69,14 @@ For Swift projects (includes Swift aliases for classes and enums) :
 ```ruby
 pod "BkVASPhoneView/Swift"
 ```
+
+### From Carthage
+
+```ogdl
+github "Backelite/BkVASPhoneView"
+```
+
+Run `carthage update` to build the framework and drag the built `BkVASPhoneView.framework` (along with `BkVASPhoneViewSwift.framework` for Swift projects) (in Carthage/Build/iOS folder) into your Xcode project (Linked Frameworks and Libraries in `Targets`).
 
 ## Authors
 
