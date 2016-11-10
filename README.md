@@ -50,10 +50,6 @@ phoneView.configure(phoneNumber: "0 802 12 12", feeType: .premium, fee: "0,34€
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
-iOS 7
-
 ## Installation
 
 ### From CocoaPods
@@ -77,6 +73,11 @@ github "Backelite/BkVASPhoneView"
 ```
 
 Run `carthage update` to build the framework and drag the built `BkVASPhoneView.framework` (along with `BkVASPhoneViewSwift.framework` for Swift projects) (in Carthage/Build/iOS folder) into your Xcode project (Linked Frameworks and Libraries in `Targets`).
+
+## Requirements
+
+iOS 7+ (through CocoaPods)
+iOS 8+ (through Carthage)
 
 ## Authors
 
