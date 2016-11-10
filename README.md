@@ -77,6 +77,7 @@ Run `carthage update` to build the framework and drag the built `BkVASPhoneView.
 ## Requirements
 
 iOS 7+ (through CocoaPods)
+
 iOS 8+ (through Carthage)
 
 ## Authors
